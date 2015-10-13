@@ -50,7 +50,7 @@ if($_SESSION['start_game']==false){
                 /* Choqueo para saber si hay un ganador */
                 $result_check = check_has_win();
                 if($result_check){
-                    $msg = "El jugador: ".$_SESSION['next_player']. " ha ganado la partido";
+                    $msg = "El jugador: ".$_SESSION['next_player']. " ha ganado la partida";
                     /* Se setea la finalizacion de la  */
                     set_finish_game();
                 /* Si no hay ganador */
@@ -65,7 +65,7 @@ if($_SESSION['start_game']==false){
                 /* Choqueo para saber si hay un ganador */
                 $result_check = check_has_win();
                 if($result_check){
-                    $msg = "El jugador: ".$_SESSION['next_player']. " ha ganado la partido";
+                    $msg = "El jugador: ".$_SESSION['next_player']. " ha ganado la partida";
                 } else {
                     $msg = "La partida ha terminado en empate";
                 }
